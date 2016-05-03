@@ -12,7 +12,7 @@ class ViewController: UIViewController {
 
     
     @IBAction func clickAction(sender: AnyObject) {
-        let toast = JLToast.makeText("Hi! i am a toast, Eat me!")
+        let toast = JLToast.makeText("Hi! i am a toast, Eat me again!")
         toast.show()
         
     }
